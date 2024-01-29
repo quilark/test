@@ -1,0 +1,65 @@
+body {
+    background-color: #fdfbf6;
+    color: #090602;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 24px;
+}
+
+.wrapper {
+    width: min(1000px, 100% - 3rem);
+    margin-inline: auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #eae1e1;
+    border-collapse: collapse;
+    background-color: hsla(0, 0%, 33%, 0.4);
+}
+
+input,
+button {
+    border-style: none;
+    border-radius: 0.15cm;
+    background-color: hsl(69 94% 52%/ 0.7);
+    color: #050505;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 24px;
+}
+
+::placeholder {
+    padding: 0.25rem;
+    color: #050505;
+}
+
+td,
+th {
+    padding: 1rem;
+    text-align: left;
+}
+
+thead,
+tfoot {
+    background: hsl(69 94% 52%/ 0.3);
+}
+
+tr:nth-of-type(2n) {
+    background: hsl(69 94% 52%/ 0.2);
+}
+
+#expenses {
+    width: 305px;
+}
+
+.d2 {
+    width: min(1000px, 100% - 2rem);
+    margin-inline: auto;
+}
+
+/* color
+text : #EAE1E1
+background : #050505
+primary : #18CBE2
+secondary : #17131B
+accent : #B264FF #D5F710
+*/
