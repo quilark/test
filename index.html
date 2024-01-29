@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Test</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet" />
+
+        <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script defer src="js/script.js"></script>
+    </head>
+    <body>
+        <p>Сайт был создан в надежде помочь вам рассмотреть свои расходы в некотором промежутке времени.</p>
+        <div class="wrapper">
+            <table class="xyz">
+                <thead>
+                    <tr>
+                        <th>Тип расходов</th>
+                        <th>Сколько было потрачено</th>
+                        <th class="lastRowWidth">Добавить/Удалить</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="text" id="expenses" placeholder="Введите наименование" />
+                        </td>
+                        <td><input type="number" id="sum" placeholder="Введите сумму" /></td>
+                        <td><button id="new_button">add</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Итого:</td>
+                        <td colspan="2" class="total_sum"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="d2">
+            <canvas id="myChart"></canvas>
+        </div>
+    </body>
+</html>
